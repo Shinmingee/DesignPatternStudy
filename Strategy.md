@@ -3,10 +3,10 @@
 ### Strategy Pattern
 #### : 인터페이스의 구현으로 동적으로 행위를 자유롭게 바꿀 수 있게 해주는 패턴.
 ***
-Ex. Shape 예제 코드
-삼각형, 사각형, 원을 등록할 수 있고  
-각각의 도형들에는 console로 각도형의 형태를 프린트 함.  
-collection에 등록된 모든 도형은 allDraw 메소드로 한번에 그려져야함.
+Ex. Shape 예제 코드  
+&nbsp;&nbsp;&nbsp;&nbsp;삼각형, 사각형, 원을 등록할 수 있고  
+&nbsp;&nbsp;&nbsp;&nbsp;각각의 도형들에는 console로 각도형의 형태를 프린트 함.  
+&nbsp;&nbsp;&nbsp;&nbsp;collection에 등록된 모든 도형은 allDraw 메소드로 한번에 그려져야함.
  
 ```java
  public class MainStrategy {
